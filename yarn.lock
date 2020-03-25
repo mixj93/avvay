@@ -1385,6 +1385,11 @@
     "@types/react" "*"
     hoist-non-react-statics "^3.3.0"
 
+"@types/howler@*":
+  version "2.1.2"
+  resolved "https://registry.npm.taobao.org/@types/howler/download/@types/howler-2.1.2.tgz#318a9cac65eeb8ed7d453dd70c9367067d35137b"
+  integrity sha1-MYqcrGXuuO19RT3XDJNnBn01E3s=
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/@types/istanbul-lib-coverage/download/@types/istanbul-lib-coverage-2.0.1.tgz#42995b446db9a48a11a07ec083499a860e9138ff"
@@ -1452,6 +1457,14 @@
   resolved "https://registry.npm.taobao.org/@types/react-dom/download/@types/react-dom-16.9.5.tgz#5de610b04a35d07ffd8f44edad93a71032d9aaa7"
   integrity sha1-XeYQsEo10H/9j0TtrZOnEDLZqqc=
   dependencies:
+    "@types/react" "*"
+
+"@types/react-howler@^3.7.1":
+  version "3.7.1"
+  resolved "https://registry.npm.taobao.org/@types/react-howler/download/@types/react-howler-3.7.1.tgz#6c32dfc8555174ef832eb0579eeb90934f6da92b"
+  integrity sha1-bDLfyFVRdO+DLrBXnuuQk09tqSs=
+  dependencies:
+    "@types/howler" "*"
     "@types/react" "*"
 
 "@types/react-native@*":
@@ -4944,6 +4957,11 @@ hosted-git-info@^2.1.4:
   resolved "https://registry.npm.taobao.org/hosted-git-info/download/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
   integrity sha1-dTm9S8Hg4KiVgVouAmJCCxKFhIg=
 
+howler@^2.1.1:
+  version "2.1.3"
+  resolved "https://registry.npm.taobao.org/howler/download/howler-2.1.3.tgz#07c88618f8767e879407a4d647fe2d6d5f15f121"
+  integrity sha1-B8iGGPh2foeUB6TWR/4tbV8V8SE=
+
 hpack.js@^2.1.6:
   version "2.1.6"
   resolved "https://registry.npm.taobao.org/hpack.js/download/hpack.js-2.1.6.tgz#87774c0949e513f42e84575b3c45681fade2a0b2"
@@ -7567,6 +7585,13 @@ pnp-webpack-plugin@1.6.4:
   dependencies:
     ts-pnp "^1.1.6"
 
+polished@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.npm.taobao.org/polished/download/polished-3.5.1.tgz#657b6faf4c2308f3e0b1951196803a5e5d67b122"
+  integrity sha1-ZXtvr0wjCPPgsZURloA6Xl1nsSI=
+  dependencies:
+    "@babel/runtime" "^7.8.7"
+
 portfinder@^1.0.25:
   version "1.0.25"
   resolved "https://registry.npm.taobao.org/portfinder/download/portfinder-1.0.25.tgz#254fd337ffba869f4b9d37edc298059cb4d35eca"
@@ -8325,7 +8350,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.6, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.npm.taobao.org/prop-types/download/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
@@ -8535,6 +8560,14 @@ react-error-overlay@^6.0.7:
   version "6.0.7"
   resolved "https://registry.npm.taobao.org/react-error-overlay/download/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha1-Hc+0WatnHVP2YKmRUTyy8KBVMQg=
+
+react-howler@^3.7.4:
+  version "3.7.4"
+  resolved "https://registry.npm.taobao.org/react-howler/download/react-howler-3.7.4.tgz#66b4e1eb9f94cb86aa8def9d0b8afaac0ebffffc"
+  integrity sha1-ZrTh65+Uy4aqje+dC4r6rA6///w=
+  dependencies:
+    howler "^2.1.1"
+    prop-types "^15.5.6"
 
 react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
